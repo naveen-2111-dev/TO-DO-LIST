@@ -1,0 +1,52 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+
+.container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.box{
+    padding: 40px;
+    background-color: #ccc;
+    border-radius: 10px;
+    box-shadow: 20px 20px 100px grey;
+    border: 1px solid #cff;
+}
+
+.listofdata {
+    margin-top: 30px;
+}
+
+.messages {
+    background-color: #808080;
+    margin-top: 7px;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    text-transform: capitalize;
+}
+
+.messages .data {
+    flex-grow: 1; 
+}
+
+.messages button {
+    outline: none;
+    border: none;
+    background: transparent;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.messages button:hover {
+    color: #ff0000;
+}

@@ -1,0 +1,26 @@
+.inputcomponents > input{
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: rgb(80, 78, 78);
+    font-weight: 900;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: capitalize;
+}
+
+.inputcomponents > button{
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 900;
+    color: rgb(80, 78, 78);
+}
+
+.inputcomponents button:hover{
+    background-color: rgb(30, 223, 9);
+    color: white;
+    box-shadow: 2px 2px 20px rgb(30, 223, 9);
+}
